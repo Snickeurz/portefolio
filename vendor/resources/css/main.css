@@ -1,0 +1,152 @@
+/* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+@media only screen and (max-device-width: 860px)
+{
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+
+
+/*********************/
+/******jumbotron******/
+/*********************/
+.jumbotron-parallax {
+    /* The image used */
+    background-image: url("../img/jumbo.jpg");
+
+    /* Set a specific height */
+    height: 100vh;
+
+    /* Create the parallax scrolling effect */
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.startAnchor
+{
+    bottom: 60px;
+    position: absolute;
+}
+
+/*********************/
+/******jumbotron******/
+/*******TITLE*********/
+.title-jumbotron
+{
+    padding: 40vh 0;
+    color: white;
+}
+
+/*********************/
+/******jumbotron******/
+/******TITLE**********/
+.entry-title
+{
+    position: relative;
+}
+.entry-title:after
+{
+    margin-top: 5px;
+    content: '';
+    position: absolute;
+    height: 1px;
+    background: wheat;
+    top: 125%;
+    margin-left: -160px;
+    margin-right: auto;
+    width: 4em
+}
+
+.entry-title2
+{
+    margin: 10px;
+}
+
+/*********************/
+/******BUTTON GO******/
+/*********************/
+.btn-discover {
+    /*text color*/
+    color: #ffffff;
+    /*background*/
+    background-color: #a4802b;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.btn-discover:hover,
+.btn-discover:focus
+.open .dropdown-toggle.btn-discover
+{
+    /*text color*/
+    color: #1A0000;
+    /*shadow*/
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+/*********************/
+/******CONTENT********/
+/********TITLE********/
+.titleContent
+{
+    text-align: center;
+    size: 3em;
+    padding-top: 4vh;
+    padding-bottom: 2vh;
+}
+
+.titleContent:after,
+.titleContent:before
+{
+    display: block;
+    /* haut | horizontal | bas */
+    margin: 20px auto 50px 20px;
+    padding: 0;
+    border: 0;
+    text-align: center;
+    font-size: 30px;
+    line-height: 1;
+    content:'⩶⩶⩶⩶⩶⩶⩶⩶⩶';
+    height: 0;
+    color: #aa9746;
+}
+
+/*********************/
+/******SECTION********/
+/*********************/
+.sectionMain
+{
+    height:1000px;
+    background-color: white;
+    font-size:36px
+}
+
+
+/*********************/
+/******SOUNDCLOUD*****/
+/*********************/
+.soundcloud
+{
+    display: grid;
+    grid-template-columns: 100% auto;
+}
+.soundcloudPlayer
+{
+    width: 100%;
+    height:166px;
+}
+
+.soundcloudPlayer-right-text-h1 {
+    color: #0e0e0e;
+    font-size: 1.7rem;
+}
+
+.soundcloudPlayer-right-text-p {
+    line-height: 1.6em;
+    color: #742e65;
+}
+

@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>XxX Photography</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styl2.css">
+
+</head>
+<body>
+  <header class="container">
+    <section class="content">
+      <h1>XXX Photography</h1>
+      <p class="sub-title"><strong>Plus qu'un art, une passion</strong> <br /> Retrouvez ici toutes mes oeuvres</p>
+    </section>
+  </header>
+
+
+  <style>
+
+/*------------------------------------------------------------------*/
+/*    3) SERVICE INTRO
+/*------------------------------------------------------------------*/
+.main_content{
+	padding:50px 0px;
+	float:left;
+	clear:both;
+	width:100%;
+}
+.main_content.home{
+	padding:80px 0px;
+}
+.serviceIntro{
+	width:100%;
+	float:left;
+	clear:both;
+	margin-bottom:80px;
+	position:relative;
+}
+.serviceIntro ul.etabs{
+	list-style-type:none;
+	text-align:center;
+	width:100%;
+	margin-bottom:15px;
+}
+.serviceIntro ul.etabs li{
+	display:inline-block;
+	margin:0px 25px 15px 25px;
+}
+.serviceIntro ul.etabs li a{
+	text-decoration:none;
+	color:#fff;
+	text-transform:uppercase;
+	font-size:13px;
+	font-weight:600;
+	position:relative;
+}
+.serviceIntro ul.etabs li a:after{
+	position: absolute;
+	bottom: -13px;
+	right: 50%;
+	border:5px solid transparent;
+	content: "";
+}
+
+.serviceIntro .tabcontent{
+	background:#000;
+	float:left;
+	clear:both;
+	width:100%;
+	margin:0px;
+	padding:0px;
+}
+.serviceIntro .img_holder{
+	float:left;
+	width:50%;
+}
+.serviceIntro .img_holder img{
+	max-width:100%;
+	width:100%;
+}
+.serviceIntro .content_holder{
+	float:left;
+	padding:130px 100px 0px 100px;
+	width:50%;
+	color:#fff;
+	position:relative;
+	height:100%;
+
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+}
+.serviceIntro .content_holder h4{
+	color:#fff;
+	font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 500;
+	margin-bottom:0px;
+}
+.serviceIntro .content_holder p{
+	color:#999;
+	margin:30px 70px 0px 0px;
+	font-size:14px;
+	line-height:1.8;
+}
+.serviceIntro a.read_more{
+	position:absolute;
+	bottom:0px;
+	right:0px;
+	padding:6px 12px 8px 12px;
+	display:block;
+	color:#fff;
+	text-decoration:none;
+	font-size:18px;
+	line-height:1;
+}
+.serviceIntro a.read_more:hover{
+	opacity:0.8;
+}
+
+
+
+a {
+  -webkit-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+  -moz-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+  -ms-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+  -o-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+  transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+  display: inline;
+  margin: 20px auto;
+  max-width: 180px;
+  text-decoration: none;
+  border-radius: 4px;
+  padding: 20px 30px;
+}
+
+a.button {
+  color: rgba(30, 22, 54, 0.6);
+  box-shadow: rgba(30, 22, 54, 0.4) 0 0px 0px 2px inset;
+}
+
+a.button:hover {
+  color: rgba(255, 255, 255, 0.85);
+  box-shadow: rgba(30, 22, 54, 0.7) 0 0px 0px 40px inset;
+}
+
+a.button2 {
+  color: rgba(30, 22, 54, 0.6);
+  box-shadow: rgba(30, 22, 54, 0.4) 0 0px 0px 2px inset;
+}
+
+a.button2:hover {
+  color: rgba(255, 255, 255, 0.85);
+  box-shadow: rgba(30, 22, 54, 0.7) 0 80px 0px 2px inset;
+}
+  </style>
+  <!-- FROM SERVICE -->
+                    <div class="serviceIntro">
+
+                        <ul class="etabs">
+                            <li>
+								<div class="wrap">
+								<a class="button" href="#tabs1"><span>Projets Urbain</span></a>
+								<a class="button2" href="#tabs3"><span>Faunes & natures</span></a>
+								<a class="button" href="#tabs4"><span>Espace</span></a>
+								<a class="button2" href="#tabsModel"><span>Modèles</span></a>
+								<a class="button" href="#contact"><span>Contact</span></a>
+								</div>
+							</li>
+                        </ul>
+                        <div class="tabcontent">
+                            <div id="tabs1">
+                                <div class="img_holder">
+                                    <img src="vendor/resources/img/city.jpg" alt="" style="width:100%;" />
+                                </div>
+                                <div class="content_holder">
+                                    <h4>La nuit dans la ville</h4>
+                                    <p>Je pense que la beauté d'une ville se révèle en plein nuit</p><br>
+									<p>Blabla du photographe philosophe</p>
+                                </div>
+                            </div>
+                            <div id="tabs2">
+                                <div class="img_holder">
+                                    <img src="vendor/resources/img/city3.jpg" alt="" style="width:100%;" />
+                                </div>
+                            </div>
+							<br><hr>
+                            <div id="tabs3">
+                                <div class="img_holder">
+                                    <img src="vendor/resources/img/nature.jpg" alt="" style="width:100%;"/>
+                                </div>
+                                <div class="content_holder">
+                                    <h4>Faune & Nature</h4>
+                                    <p>La liberté est décrite à travers nos paysages.</p><br>
+                                    <p>Ici j'ai tenté de capturer le lien que l'on a avec la nature</p>
+                                </div>
+                            </div>
+                            <div id="tabs4">
+                                <div class="img_holder">
+                                    <img src="vendor/resources/img/nature2.jpg" alt="" style="width:100%;" />
+                                </div>
+
+							<hr>
+                                <div class="content_holder">
+                                    <h4>Espace & Univers</h4>
+                                    <p>Lorsque l'on remarque la grandeur de l'univers, on se sent petit.</p><br>
+                                    <p>Ces images pour moi permettent de vous faire ressentir notre petite taille par rapport à l'échelle de l'univers</p>
+                                </div>
+                            </div><br>
+                            <div id="tabs5">
+                                <div class="img_holder">
+                                    <img src="vendor/resources/img/space.jpg" alt="" style="width:100%;" />
+                                </div>
+									<img src="vendor/resources/img/space2.jpg" style="width:100%;height:100%;">
+                            </div>
+							<br><hr><br>
+							<style>
+
+.main-div{
+    max-width:1200px;
+    margin:0 auto;
+}
+img{
+    margin-bottom:26px;
+}
+
+							</style>
+                        </div>
+
+                    </div>
+                    <!-- /FROM SERVICE -->
+
+
+
+
+</body>
+</html>

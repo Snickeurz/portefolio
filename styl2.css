@@ -1,0 +1,127 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,500,300&subset=latin,cyrillic);
+
+html, body, .container {
+  height: 100%;
+}
+
+html, body, h1, p, a, div, section {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font: inherit;
+}
+
+/* Основные стили */
+body { 
+  font: 18px/23px "Roboto", sans-serif;
+  color: #ffffff;
+}
+
+h1 {
+  color: #efecec;
+  text-transform: uppercase;
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+a {
+  color: #ffffff;
+}
+
+p {
+  margin: 0 0 15px 0;
+}
+
+strong {
+  font-weight: 700;
+}
+
+.inner {
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.container {
+  display: table;
+  padding-top: 80px;
+  width: 100%;
+}
+
+.content {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.sub-title {
+  margin: 50px auto;
+  font-size: 18px;
+  line-height: 23px;
+  text-transform: uppercase;
+}
+
+#more-content {
+  background: #fff;
+  padding:20px 0;
+}
+
+#more-content p {
+  width: 70%;
+  margin:10px auto;
+  color:#B5B4BA;
+}
+body {
+  /* Путь к изображению относительно данного файла */
+  background-image: url('vendor/resources/img/cover.jpg');
+  
+  /* Центрирование изображения по вертикали и горизонтали всегда */
+  background-position: center center;
+  
+  /* Запрещаем повтор изображения */
+  background-repeat: no-repeat;
+  
+  /* Фиксируем изображение - оно остается на месте при прокрутке окна */
+  background-attachment: fixed;
+  
+  /* Изображение будет масштабироваться в зависимости от размеров контейнера */
+  background-size: cover;
+  
+  /* Цвет фона изображения, который будет показываться пока изображение не загрузится */
+  background-color:#464646;
+  
+  /* Эквивалентная сокращенная запись
+   * background: url(background-photo.jpg) center center cover no-repeat fixed;
+   */
+}
+
+.dad {
+    background: url('vendor/resources/img/fond.jpg');
+	background-size:cover;
+}
+
+.fig {
+    color: #fcfcfc;
+	font-family: 'Karla', san-serif;
+	font-weight: 400;
+	font-size: 4em;
+	text-align: center;
+	border-radius: 30px;
+	display: inline-block;
+	padding: 15px;
+	width: 250px;
+	border-left: 1px solid #fcfcfc;	
+	border-right: 1px solid #fcfcfc;
+	-webkit-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+.fig:hover {
+	border-radius: 0px;
+	color: #333;
+	background: #fcfcfc;
+	cursor: pointer;
+    text-decoration: none;
+}

@@ -1,0 +1,100 @@
+
+
+/*********************/
+/******PROFILECARD****/
+/*********************/
+.presentationPaddingTop
+{
+    padding-top: 8vh;
+}
+.top-buffer
+{
+    margin-top:-4px;
+}
+
+.showMe
+{
+    text-align: center;
+}
+.socialButton
+{
+    padding-left: 0.3em;
+    color: #9bc55d;
+    font-size: 2em;
+}
+
+.services {
+    background-color: #FBFBFB;
+}
+.single-service {
+    position: relative;
+    text-align: center;
+    margin-bottom: 50px;
+    -webkit-transition: .3s;
+    transition: .3s;
+    padding: 30px 20px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.16)
+}
+.single-service:before {
+    position: absolute;
+    width: 0;
+    height: 0;
+    background-color: #FF7200;
+    left: 0;
+    top: 0;
+    content: "";
+    -webkit-transition: .3s;
+    transition: .3s
+}
+.single-service:after {
+    position: absolute;
+    width: 0;
+    height: 0;
+    background-color: #FF7200;
+    right: 0;
+    bottom: 0;
+    content: "";
+    -webkit-transition: .3s;
+    transition: .3s
+}
+.single-service:hover:after,
+.single-service:hover:before {
+    width: 50%;
+    height: 2px;
+    -webkit-transition: .3s;
+    transition: .3s
+}
+.single-service:hover {
+    box-shadow: 1px 3px 10px 0 rgba(0, 0, 0, 0.10)
+}
+.single-service i.fa,
+.single-service i.fas
+{
+    font-size: 20px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #ddd;
+    line-height: 60px;
+    margin-bottom: 30px;
+    border-radius: 50%;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+.single-service:hover i.fa,
+.single-service:hover i.fas
+{
+    background-color: #FF7200;
+    color: #fff;
+    border-color: #FF7200;
+    border-radius: 0;
+}
+.single-service h4 {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+.single-service p {
+    font-size: 15px;
+    line-height: 1.8;
+}
