@@ -4,6 +4,11 @@
 /*    padding-bottom: 2vh;*/
 /*    background-color: #e3f2fd;*/
 /*}*/
+/*@media(max-width: 767px) {*/
+/*    .fixNavBar {*/
+/*       position: static;*/
+/*    }*/
+/*}*/
 
 .fixNavBar
 {

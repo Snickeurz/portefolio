@@ -10,12 +10,13 @@
         </h1>
         <div class="row">
             <div class="col-md-6 offset-md-3">
+                <br/>
                 <a id="btnDiscover"
                    type="button"
                    class="btn btn-discover btn-rounded font-weight-bold text-uppercase"
                    href="#start"
                 >
-                    Découvrir
+                    En savoir plus
                 </a>
 
             </div>
@@ -24,86 +25,132 @@
     </div>
 </div>
 
-<div class="container" >
-
-    <div class="row presentationPaddingTop">
-        <div class="col-4">
-            <div class="showMe anim" id="profileCard" data-delay="0.5s">
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="vendor/resources/img/img_avatar.png" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title text-capitalize">Nicolas sibaud</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+<br>
+<div class="container">
+    <div class="borderStyle">
+        <h1 class="font-weight-bold text-uppercase titleContent anim" id="showPresentationContentTitle">
+            A propos de moi
+        </h1>
+        <div class="row presentationPaddingTop">
+            <div class="col-6 block-center">
+                <div class="showMe anim" id="profileCard" data-delay="0.5s">
+                    <div class="card cardStyle">
+                        <img class="card-img-top" src="vendor/resources/img/img_avatar.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title text-capitalize">Nicolas sibaud</h5>
+                            <p class="card-text">Some quick example text to build on the carSome quick example text to build on the Some quick example text to build on the car and make up the bulk of the card's content.</p>
+                        </div>
+                        <div class="card-body">
+                            <a href="#" class="card-link"><span class="fab fa-facebook-square socialButton"></span></a>
+                            <a href="#" class="card-link"><span class="fab fa-instagram socialButton"></span></a>
+                            <a href="#" class="card-link"><span class="fab fa-linkedin socialButton"></span></a>
+                            <a href="#" class="card-link"><span class="fab fa-youtube socialButton"></span></a>
+                        </div>
                     </div>
-                    <div class="card-body">
-                        <a href="#" class="card-link"><span class="fab fa-facebook-square socialButton"></span></a>
-                        <a href="#" class="card-link"><span class="fab fa-instagram socialButton"></span></a>
-                        <a href="#" class="card-link"><span class="fab fa-linkedin socialButton"></span></a>
-                        <a href="#" class="card-link"><span class="fab fa-youtube socialButton"></span></a>
+                </div>
+
+            </div>
+
+            <div class="col-6 anim" id="services" data-delay="0s">
+                <div class="row">
+                    <!-- Single Service -->
+                    <div class="single-service">
+                        <i class="fas fa-compact-disc"></i>
+                        <h4>M.A.O</h4>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry </p>
                     </div>
                 </div>
-            </div>
-
-        </div>
-
-        <div class="col-8 anim" id="services" data-delay="0s">
-            <div class="row">
-                <!-- Single Service -->
-                <div class="single-service">
-                    <i class="fas fa-compact-disc"></i>
-                    <h4>M.A.O</h4>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry </p>
+                <div class="row top-buffer">
+                    <!-- Single Service -->
+                    <div class="single-service">
+                        <i class="fa fa-gears"></i>
+                        <h4>Web Development</h4>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry </p>
+                    </div>
                 </div>
-            </div>
-            <div class="row top-buffer">
-                <!-- Single Service -->
-                <div class="single-service">
-                    <i class="fa fa-gears"></i>
-                    <h4>Web Development</h4>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry </p>
-                </div>
-            </div>
 
 
+            </div>
         </div>
     </div>
 
+</div>
+<br>
 
+<div id="separatorMusic" class="separatorMusic"></div>
+<div id="music" class="musicAnchor"></div>
 
-
-    <div id="showMusicContent">
-        <h1 class="font-weight-bold text-uppercase titleContent anim" id="showMusicContentTitle">
+<br/>
+<div class="container">
+    <div class="borderStyle2">
+        <div id="showMusicContent">
+            <h1 class="font-weight-bold text-uppercase titleContent anim " id="showMusicContentTitle">
                 Mes créations musicale
-        </h1>
-        <!-- Lecteurs soundcloud   -->
-        <div class="soundcloud">
-            <div class="row">
-                <div id="soundcloudplayer1" class="col anim">
-                    <iframe class="soundcloudPlayer"
+            </h1>
+            <!-- Lecteurs soundcloud   -->
+            <div class="soundcloud">
+                <div class="row">
+                    <div id="soundcloudplayer1" class="col anim" style="padding-left: 25px;">
+                        <iframe class="soundcloudPlayer"
+                                scrolling="no"
+                                frameborder="no"
+                                src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/584963262&color=%2392319a&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true">
+                        </iframe>
+                    </div>
+                    <div id="content-soundcloud-right" class="col-md-auto anim" data-delay="0.5s">
+                        <h1 class="soundcloudPlayer-right-text-h1">Soundtrack - piano</h1>
+                        <p class="soundcloudPlayer-right-text-p">
+                            Improvisation piano enregistré avec logic pro X
+                            <br/>
+                            Sed ut perspiciatis unde omnis iste natus<br/>
+                            error sit voluptatem accusantium doloremque laudantium, <br/>.
+                            error sit voluptatem accusantium doloremque laudantium, <br/>.
+                            error sit voluptatem accusantium doloremque laudantium,
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="sectionMain">
+            <div class="row" style="padding: 55px;">
+                <div class="col anim" id="soundcloudplayer3">
+                    <iframe width="100%"
+                            height="300"
                             scrolling="no"
                             frameborder="no"
-                            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/584963262&color=%2392319a&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true">
-                    </iframe>
+                            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/587038731&color=%234f443e&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
                 </div>
-                <div id="content-soundcloud-right" class="col-md-auto anim" data-delay="0.5s">
-                    <h1 class="soundcloudPlayer-right-text-h1">Soundtrack - piano</h1>
-                    <p class="soundcloudPlayer-right-text-p">
-                        Improvisation piano enregistré avec logic pro X
-                        <br/>
-                        Sed ut perspiciatis unde omnis iste natus<br/>
-                        error sit voluptatem accusantium doloremque laudantium, <br/>.
-                        error sit voluptatem accusantium doloremque laudantium, <br/>.
-                        error sit voluptatem accusantium doloremque laudantium,
-                    </p>
+                <div class="col anim" id="soundcloudplayer2">
+                    <iframe width="100%"
+                            height="300"
+                            scrolling="no"
+                            frameborder="no"
+                            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/628956150&color=%234f443e&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+                </div>
+                <div class="col anim" id="soundcloudplayer4">
+                    <iframe width="100%"
+                            height="300"
+                            scrolling="no"
+                            frameborder="no"
+                            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/596406438&color=%23548090&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
                 </div>
             </div>
         </div>
     </div>
 
+</div>
+<br/>
+
+<div id="separatorWeb" class="separatorWeb"></div>
+<div id="web" class="webAnchor"></div>
+<div class="container">
+    <h1 class="font-weight-bold text-uppercase titleContent anim " id="showWebContentTitle">
+        Mes créations web
+    </h1>
 
     <div class="sectionMain">
-
-        dfgdfgfdg
+        toto
     </div>
 </div>
 

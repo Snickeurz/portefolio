@@ -44,11 +44,19 @@ function handleIntersect(entries)
         // if intersecting
         if(entry.isIntersecting)
         {
-            console.log("entry target id : " + entry.target.id);
             switch (entry.target.id)
             {
                 case "soundcloudplayer1":
                     entry.target.style.animation = 'animXRightToLeft 2.5s forwards ease-in';
+                    break;
+                case "soundcloudplayer2":
+                    entry.target.style.animation = 'bounceInUp 4s forwards ease-in';
+                    break;
+                case "soundcloudplayer3":
+                    entry.target.style.animation = 'bounceInLeft 4s forwards';
+                    break;
+                case "soundcloudplayer4":
+                    entry.target.style.animation = 'bounceInRight 4s forwards ';
                     break;
                 case "content-soundcloud-right":
                     entry.target.style.animation = 'animXLeftToRight 2.5s forwards ease-in-out';
@@ -62,6 +70,10 @@ function handleIntersect(entries)
                 case "showMusicContentTitle":
                     entry.target.style.animation = 'pulse 2.5s forwards';
                     break;
+                case "showPresentationContentTitle":
+                case "showWebContentTitle":
+                    entry.target.style.animation = 'swing 2.5s forwards';
+                    break;
                 default:
                     break;
             }
@@ -69,7 +81,7 @@ function handleIntersect(entries)
         else
         {
             // reset animation
-            entry.target.style.animation = 'none';
+            // entry.target.style.animation = 'none';
         }
 
     });

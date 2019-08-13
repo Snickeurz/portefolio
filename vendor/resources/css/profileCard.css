@@ -5,7 +5,7 @@
 /*********************/
 .presentationPaddingTop
 {
-    padding-top: 8vh;
+    /*padding-top: 1vh;*/
 }
 .top-buffer
 {
@@ -15,6 +15,7 @@
 .showMe
 {
     text-align: center;
+    padding-left: 5vh;
 }
 .socialButton
 {
@@ -26,13 +27,16 @@
 .services {
     background-color: #FBFBFB;
 }
-.single-service {
+
+.single-service
+{
     position: relative;
     text-align: center;
     margin-bottom: 50px;
     -webkit-transition: .3s;
     transition: .3s;
     padding: 30px 20px;
+    margin-right: 60px;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.16)
 }
 .single-service:before {
@@ -97,4 +101,8 @@
 .single-service p {
     font-size: 15px;
     line-height: 1.8;
+}
+
+.cardStyle{
+    width: 18rem;
 }
