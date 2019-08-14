@@ -1,4 +1,4 @@
-/* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+﻿/* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
 @media only screen and (max-device-width: 860px)
 {
     .parallax {
@@ -106,12 +106,11 @@
 /*********************/
 .separatorMusic
 {
-    /*background: url("../img/cover.jpg") center 0 no-repeat fixed;*/
-
+    background: url("../img/separatormusic.jpg") center 0 no-repeat fixed;
     overflow: hidden;
     background-size: cover;
-    background-position: center;
-    background-image: url('../img/cover.jpg');
+    /*background-position: center;*/
+    /*background-image: url('../img/cover.jpg');*/
     height: 350px;
 }
 
@@ -123,15 +122,29 @@
 
 .separatorWeb
 {
-    /*background: url("../img/fond.jpg") center 0 no-repeat fixed;*/
+    background: url("../img/separatorweb.jpg") center 0 no-repeat fixed;
     overflow: hidden;
     background-size: cover;
-    background-position: center;
-    background-image: url('../img/fond.jpg');
+    /*background-position: center;*/
+    /*background-image: url('../img/cover.jpg');*/
     height: 350px;
 
     /*transform:rotate(-1deg);*/
     /*transform-origin:center bottom 0;*/
+}
+
+#separatorContact
+{
+    margin-top: 8vh;
+}
+
+
+.separatorContact
+{
+    background: url("../img/separatorweb.jpg") center 0 no-repeat fixed;
+    overflow: hidden;
+    background-size: cover;
+    height: 350px;
 }
 
 
@@ -146,8 +159,7 @@
     padding-bottom: 2vh;
 }
 
-.titleContent:after,
-.titleContent:before
+.titleContent:after
 {
     display: block;
     /* haut | horizontal | bas */
@@ -158,7 +170,7 @@
     font-size: 30px;
     line-height: 1;
     /*content:'⩶⩶⩶⩶⩶⩶⩶⩶⩶';*/
-    content:'----------------------------';
+    content:'_______________________________';
     height: 0;
     color: #aa9746;
 }
@@ -196,4 +208,75 @@
 .soundcloudPlayer-right-text-p {
     line-height: 1.6em;
     color: #742e65;
+}
+
+
+
+.container-web {
+    position: relative;
+    z-index: 1;
+    height: 600px;
+}
+.container-web-text {
+    position: absolute;
+    z-index: 3; /* .boite-doree sera au-dessus de .boite-verte et .boite-tirets */
+    background: rgba(14, 14, 14, 0.45);
+    width: 59.55%;
+    left: 60px;
+    top: -1.40em;
+    height: 160px;
+    /*opacity: 0.5;*/
+}
+@media only screen and (max-device-width: 1050px)
+{
+    .container-web-text {
+        position: absolute;
+        z-index: 3; /* .boite-doree sera au-dessus de .boite-verte et .boite-tirets */
+        background: rgba(14, 14, 14, 0.45);
+        width: 59.55%;
+        left: 45px;
+        top: -1.5em;
+        height: 160px;
+        opacity: 0.5;
+    }
+
+    .fontMontserratAlternates
+    {
+        font-family: "Montserrat Alternates";
+        font-weight: normal;
+        font-style: normal;
+        font-size: 8px;
+    }
+}
+
+.container-web-image {
+    position: absolute;
+    z-index: 2; /* .boite-verte sera au-dessus de .boite-tirets */
+    background: none;
+    width: 20%;
+    left: 65%;
+    top: -25px;
+    height: 7em;
+    opacity: 0.9;
+}
+
+
+.container-web-site-screenshot
+{
+    width: 100%;
+    height: 100%;
+}
+.container-web-site-link
+{
+    text-align: center;
+}
+.container-web-site-capture {
+    position: absolute;
+    z-index: 4;
+    background: none;
+    width: 59.55%;
+    left: 5.45%;
+    top: 120px;
+    height: 22.85em;
+    opacity: 0.9;
 }

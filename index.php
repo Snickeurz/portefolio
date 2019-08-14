@@ -10,17 +10,21 @@ if (isset($_GET["uc"]))
 
 // call base.html
 include ("base.html");
-// call navbar.html
-include ("nav.html");
+
+if($uc != "")
+{
+    include ("loader.html");
+}
 
 // Switch Use case
 switch($uc)
 {
     case "main":
+        // call navbar.html
+        include ("nav.html");
         // Main  content
         include ("parallax.html");
         break;
-
     default :
         include ("guard.html");
         break;

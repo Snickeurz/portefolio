@@ -44,35 +44,39 @@ function handleIntersect(entries)
         // if intersecting
         if(entry.isIntersecting)
         {
+            console.log(entry);
             switch (entry.target.id)
             {
                 case "soundcloudplayer1":
-                    entry.target.style.animation = 'animXRightToLeft 2.5s forwards ease-in';
+                    entry.target.style.animation = 'animXRightToLeft 2s forwards ease-in';
                     break;
                 case "soundcloudplayer2":
-                    entry.target.style.animation = 'bounceInUp 4s forwards ease-in';
+                    entry.target.style.animation = 'bounceInUp 2.5s forwards ease-in';
                     break;
                 case "soundcloudplayer3":
-                    entry.target.style.animation = 'bounceInLeft 4s forwards';
+                case "text-site-tarik":
+                case "screenshot-site-tarik":
+                    entry.target.style.animation = 'bounceInLeft 2.5s forwards';
                     break;
                 case "soundcloudplayer4":
-                    entry.target.style.animation = 'bounceInRight 4s forwards ';
+                case "image-tarik":
+                    entry.target.style.animation = 'bounceInRight 2.5s forwards ';
                     break;
                 case "content-soundcloud-right":
-                    entry.target.style.animation = 'animXLeftToRight 2.5s forwards ease-in-out';
+                    entry.target.style.animation = 'animXLeftToRight 2s forwards ease-in-out';
                     break;
                 case "profileCard":
-                    entry.target.style.animation = 'fadeInUp 2.5s forwards';
+                    entry.target.style.animation = 'fadeInUp 2s forwards';
                     break;
                 case "services":
-                    entry.target.style.animation = 'zoomInRight 2.5s forwards';
+                    entry.target.style.animation = 'zoomInRight 2s forwards';
                     break;
                 case "showMusicContentTitle":
-                    entry.target.style.animation = 'pulse 2.5s forwards';
+                    entry.target.style.animation = 'pulse 2s forwards';
                     break;
                 case "showPresentationContentTitle":
                 case "showWebContentTitle":
-                    entry.target.style.animation = 'swing 2.5s forwards';
+                    entry.target.style.animation = 'swing 2s forwards';
                     break;
                 default:
                     break;

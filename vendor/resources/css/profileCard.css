@@ -9,7 +9,7 @@
 }
 .top-buffer
 {
-    margin-top:-4px;
+    /*margin-top:-4px;*/
 }
 
 .showMe
@@ -104,5 +104,12 @@
 }
 
 .cardStyle{
-    width: 18rem;
+    width: 20rem;
+}
+
+.contactMe a
+{
+    outline: none;
+    text-decoration: none;
+    bottom: 0;
 }
