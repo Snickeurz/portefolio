@@ -69,6 +69,7 @@ function handleIntersect(entries)
                     entry.target.style.animation = 'animXLeftToRight 2s forwards ease-in-out';
                     break;
                 case "profileCard":
+                case "footer":
                     entry.target.style.animation = 'fadeInUp 2s forwards';
                     break;
                 case "services":
