@@ -1,0 +1,69 @@
+.contactBackground
+{
+    /*background-image:url("../img/contact-background.png");*/
+    background-color: #4DA0B0;
+}
+.overlay {
+    background: #00000026;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.custom-button {
+    width: 100%;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.8s ease;
+    background: #4DA0B0;
+    background: -webkit-linear-gradient(to right, #D39D38, #4DA0B0);
+    background: linear-gradient(to right, #FF5722, #3f51b5);
+}
+
+.custom-button:hover, .custom-button:focus{
+    transition: 0.8s ease;
+    letter-spacing: 3px;
+    background: -webkit-linear-gradient(to right, #D39D38, #4DA0B0);
+    background: linear-gradient(to right, #FF5722, #3f51b5);
+}
+.form-box-inner .form-control {
+    background: #ffffff8a;
+    border: 2px solid #000000;
+    box-shadow: none;
+}
+.form-box-inner .form-control:focus {
+    outline:none;
+    box-shadow:none;
+}
+.map-box iframe {
+    width: 100%;
+    height: 357px;
+}
+.map-box {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.contact{
+    text-align:center;
+}
+.contact-box{
+    background: #ffffff8a;
+    height: 365px;
+    padding:15px;
+}
+.contact-box ul li{
+    margin-bottom:0px;
+    padding:8px;
+}
+.contact i {
+    font-size: 25px;
+    color: #f65728;
+}
+.form-box-inner
+{
+    background: #ffffff8a;
+    padding: 15px;
+}

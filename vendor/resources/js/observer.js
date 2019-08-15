@@ -51,14 +51,17 @@ function handleIntersect(entries)
                     entry.target.style.animation = 'animXRightToLeft 2s forwards ease-in';
                     break;
                 case "soundcloudplayer2":
+                case "contactBox2":
                     entry.target.style.animation = 'bounceInUp 2.5s forwards ease-in';
                     break;
                 case "soundcloudplayer3":
+                case "contactBox1":
                 case "text-site-tarik":
                 case "screenshot-site-tarik":
                     entry.target.style.animation = 'bounceInLeft 2.5s forwards';
                     break;
                 case "soundcloudplayer4":
+                case "contactBox3":
                 case "image-tarik":
                     entry.target.style.animation = 'bounceInRight 2.5s forwards ';
                     break;
@@ -76,6 +79,7 @@ function handleIntersect(entries)
                     break;
                 case "showPresentationContentTitle":
                 case "showWebContentTitle":
+                case "showContactContentTitle":
                     entry.target.style.animation = 'swing 2s forwards';
                     break;
                 default:
