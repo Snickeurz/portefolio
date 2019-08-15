@@ -24,13 +24,13 @@ switch($uc)
         include ("nav.html");
         // Main  content
         include ("parallax.html");
+        // Footer
+        include ("footer.html");
         break;
     default :
         include ("guard.html");
         break;
 }
 
-// Footer
-include ("footer.html");
 
 
