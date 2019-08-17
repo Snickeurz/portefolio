@@ -9,11 +9,11 @@ if (isset($_GET["uc"]))
 }
 
 // call base.html
-include ("base.html");
+include("views/common/base.html");
 
 if($uc != "")
 {
-    include ("loader.html");
+    include("views/common/loader.html");
 }
 
 // Switch Use case
@@ -21,14 +21,14 @@ switch($uc)
 {
     case "main":
         // call navbar.html
-        include ("nav.html");
+        include("views/common/nav.html");
         // Main  content
-        include ("parallax.html");
+        include("views/main/parallax.html");
         // Footer
-        include ("footer.html");
+        include("views/common/footer.html");
         break;
     default :
-        include ("guard.html");
+        include("views/guard/guard.html");
         break;
 }
 
