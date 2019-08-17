@@ -3,14 +3,14 @@
     /*background-image:url("../img/contact-background.png");*/
     background-color: #4DA0B0;
 }
-.overlay {
-    background: #00000026;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-}
+/*.overlay {*/
+/*    background: #00000026;*/
+/*    position: absolute;*/
+/*    left: 0;*/
+/*    top: 0;*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*}*/
 .custom-button {
     width: 100%;
     color: #fff;
