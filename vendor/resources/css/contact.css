@@ -41,15 +41,18 @@
     width: 100%;
     height: 357px;
 }
-.map-box {
+.map-box
+{
     padding: 5px;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .contact{
     text-align:center;
 }
-.contact-box{
+.contact-box
+{
+    border-radius: 10px;
     background: #ffffff8a;
     height: 365px;
     padding:15px;
@@ -64,6 +67,7 @@
 }
 .form-box-inner
 {
+    border-radius: 10px;
     background: #ffffff8a;
     padding: 15px;
 }
